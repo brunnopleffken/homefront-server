@@ -1,0 +1,23 @@
+{
+  "name": "homefront-server",
+  "version": "1.0.0",
+  "description": "Homefront Online 4X RST game web server.",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunnopleffken/homefront-server.git"
+  },
+  "author": "Brunno Pleffken Hosti",
+  "license": "Copyright 2015 Homefront Online",
+  "bugs": {
+    "url": "https://github.com/brunnopleffken/homefront-server/issues"
+  },
+  "homepage": "https://github.com/brunnopleffken/homefront-server#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "^2.9.0"
+  }
+}
