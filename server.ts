@@ -12,14 +12,10 @@ import * as express from "express";
 
 var application: express.Express = express();
 
-/**
- * Call controllers/application in every application request
- */
+// Define controllers
 application.use(require("./controllers/application"));
 
-/**
- * Build up server and listen to port 3001
- */
+// Listen to server
 var server = application.listen(3001, (): void => {
 	var host: string = server.address().address;
 	var port: number = server.address().port;
