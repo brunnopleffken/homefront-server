@@ -32,3 +32,6 @@ server.js
 controllers/*.js
 helpers/*.js
 middlewares/*.js
+
+# VSCode settings directory
+.settings
