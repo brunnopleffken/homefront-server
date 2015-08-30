@@ -27,6 +27,7 @@ build/Release
 node_modules
 
 # Homefront compiled files
+database.js
 server.js
 controllers/*.js
 helpers/*.js
