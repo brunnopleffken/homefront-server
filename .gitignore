@@ -34,4 +34,4 @@ helpers/*.js
 middlewares/*.js
 
 # VSCode settings directory
-.settings
+.vscode
