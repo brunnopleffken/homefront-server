@@ -23,7 +23,6 @@ export default class Military {
 
 	/**
 	 * Set attacker fleet
-	 * @param {any[]} fleet Attacker fleet array
 	 */
 	public setAttacker(fleets: Array<IFleet>): void {
 		this.attackerFleet = fleets;
@@ -31,7 +30,6 @@ export default class Military {
 
 	/**
 	 * Set defender fleet
-	 * @param {any[]} fleet Defender fleet array
 	 */
 	public setDefender(fleets: Array<IFleet>): void {
 		this.defenderFleet = fleets;
@@ -39,8 +37,6 @@ export default class Military {
 
 	/**
 	 * Return attacker or defender fleet
-	 * @param  {string}        type Type 'a' for attacker or 'd' for defender
-	 * @return {Array<IFleet>}      Fleet array
 	 */
 	public returnFleet(type: string): Array<IFleet> {
 		if(type == "attacker") {
